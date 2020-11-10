@@ -1,5 +1,45 @@
+.navbar {
+  background-color: black;
+}
+.about-us, .more-about-us{
+  background-color: black;
+}
+
+
+
+
+
+
+
 .img-fluid{
     max-width: 100%;
-    height: auto;
-
+    height: auto
 }
+
+.hero-background-img {
+  background-image: url("images/nycview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+.btn-primary:hover {
+  background-color: blue;
+  color: white;
+}
+
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-image: url("uppercity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; /* Tone the image down further by giving it transparency */
+  }
