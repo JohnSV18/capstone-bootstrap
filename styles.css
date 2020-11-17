@@ -1,45 +1,55 @@
 .navbar {
   background-color: black;
+  
 }
-.about-us, .more-about-us{
+.navbar a{
+  color: white;
+}
+.learn{
+  color: white;
+  font-size: 15px;
+  opacity: 1;
+}
+.about-us{
   background-color: black;
+  opacity: 0.9;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
 }
-
-
-
-
-
-
-
+.more-about-us{
+  background-color: black;
+  opacity: 0.9;
+}
 .img-fluid{
-    max-width: 100%;
-    height: auto
+  max-width: 100%;
+  height: auto;
+}
+.card{
+  background-color: black;
+  opacity: 0.9;
+}
+.card-text{
+  font-size: 15px;
+}
+.solid-image{
+  opacity: 1;
 }
 
-.hero-background-img {
-  background-image: url("images/nycview.jpg");
+body{
+  background-image: url("images/sunset.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top:200px;
-  padding-bottom:200px;
+  padding-top:400px;
+  padding-bottom:400px;
+
 }
 .btn-primary:hover {
   background-color: blue;
   color: white;
 }
-
-.hero-background-img:after {
-    content: "";
-    position: absolute;
-    background-image: url("uppercity.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.5; /* Tone the image down further by giving it transparency */
+  
+.about-us h1{
+    color: white;
+    font-family: cursive;
   }
