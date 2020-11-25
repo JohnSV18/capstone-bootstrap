@@ -13,7 +13,7 @@
 .about-us{
   background-color: black;
   opacity: 0.9;
-  border-bottom: 5px solid white;
+  /* border-bottom: 5px solid white; */
   border-top: 5px solid white;
 }
 .more-about-us{
@@ -41,7 +41,7 @@ body{
   background-size: cover;
   background-position: center;
   padding-top:400px;
-  padding-bottom:400px;
+ 
 
 }
 .btn-primary:hover {
@@ -50,6 +50,74 @@ body{
 }
   
 .about-us h1{
-    color: white;
-    font-family: cursive;
+  color: white;
+  font-family: cursive;
   }
+
+.shopForm{
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  border-bottom: 5px solid white;
+  
+  justify-content: center;
+}
+
+.shop-intro{
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  border-top: 5px solid white;
+  text-align: center;
+}
+.carousel-item{
+  height: 32rem;
+  background: #777;
+
+
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    
+}
+.location{
+  background-color: black;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  opacity: 0.9;
+  color: white;
+
+}
+
+  /* ---------------- LOCATIONS PAGE LISTS----------------- */
+
+/* styles for directions button in location page  */
+#directions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 15px 100px;
+    border-radius: 8px;
+   
+}
+#directions a {
+    color: white;
+    text-decoration: underline  ;
+    text-decoration-color: greenyellow;
+    
+}
+.flushing h2{
+  color: white;
+  font-family: cursive;
+}
+.social{
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  border-top: 5px solid white;
+}

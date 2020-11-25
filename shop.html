@@ -6,6 +6,10 @@
     <title>Eastern Queens NY Football Club </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <nav class="navbar navbar-expand fixed-top">
@@ -19,55 +23,120 @@
       <a class="nav-item nav-link" href="shop.html">Shop</a>
     </div>
     </nav>
-    <div class="class">
 
+    <div class="form-row justify-content-center shop-intro p-5">
+        <div class="col-6">
+            <h3><i>Shop</i></h3>
+
+
+            <p>We've been working really hard with Upper90 on making it easier for out team members
+                to purchase the uniforms. If you would like to purchase a uniform, pleaase fill out this form.
+                We will then reach out to you to confirm. If you need other Soccer equipiment then please click the
+                button below to continue on to Upper 90's site.
+            </p>
+       
+
+        <div id = "button">
+            <button type="button" class="btn btn-dark"><a href = "https://u90soccer.com">Shop now</a></button>
+            
+         </div>
+        </div>
+    </div>
+    
+        <div class="shopForm justify-content-center">
+      
         <form>
-            <div class="form-row">
+            <div class="form-row justify-content-center">
             <div class="form-group col-md-4">
                 <label for="playerName">Player First Name</label>
-                <input type="email" class="form-control" id="playerName" placeholder="Player First Name">
+                <input type="text" class="form-control" id="playerName" placeholder="Player First Name">
             </div>
+
             <div class="form-group col-md-4">
                 <label for="playerLastName">Player Last Name</label>
-                <input type="password" class="form-control" id="playerLastName" placeholder="Player Last Name">
+                <input type="text" class="form-control" id="playerLastName" placeholder="Player Last Name">
             </div>
             </div>
-            <div class="form-group col-5">
-            <label for="inputAddress">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+
+
+
+            <div class="form-row justify-content-center">
+            <div class="form-group col-md-4">
+                <label for=selectGender>Gender</label>
+                <select class="form-control" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
             </div>
-            <div class="form-group col-5">
-            <label for="inputAddress2">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    
+            <div class="form-group col-md-4">
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday" placeholder="00/00/0000">
             </div>
-            <div class="form-row">
+            </div>
+
+
+
+            <div class="form-row justify-content-center">
             <div class="form-group col-md-4">
                 <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" class="form-control" id="inputCity" placeholder="City">
             </div>
-            <div class="form-group col-md-4">
+
+            <div class="form-group col-md-2">
                 <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
-                </select>
+                <input type="text" id="inputState" class="form-control" placeholder="State">
+                
             </div>
             <div class="form-group col-md-2">
                 <label for="inputZip">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="text" class="form-control" id="inputZip" placeholder="Zip Code">
             </div>
             </div>
-            <div class="form-group">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                Check me out
-                </label>
-            </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-        </form>
 
+            <div class="form-row justify-content-center">
+            <div class="form-group col-md-4">
+                    <label for="parentName">Parent/Guardian First Name</label>
+                    <input type="text" class="form-control" id="parentName" placeholder="Parent/Guardian First Name">
+            </div>
+    
+            <div class="form-group col-md-4">
+                    <label for="parentLastName">Player Last Name</label>
+                    <input type="text" class="form-control" id="parentLastName" placeholder="Parent/Guardian Last Name">
+            </div>
+            </div>
+
+            <div class="form-row justify-content-center">
+            <div class="form-group col-5">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+            </div>
+            <div class="row justify-content-center p-4">
+                <input class="btn btn-dark" type="submit" value="Submit">
+            </div>
+            
+            
+         
+        </form>
     </div>
+
 </body>
+<footer>
+    <div class="row justify-content-md-center social">
+      <div class="col-2">
+  
+        <h4>EasternNYCFootballClub@Gmail.com</h4>
+        <p> Phone: 347-445-9765</p>
+      </div>
+        <div class="col-2 mt-4 images">
+        <a href="https://m.facebook.com/pg/easternqueensfc/groups/?ref=page_internal&mt_nav=0">
+          <img src="images/facebook.jpg" style="width:42px;height:40px;"></a>
+          
+        <a href="https://www.instagram.com/easternqueensfc/">
+          <img src="images/instagram.jpg" style="width:60px;height:40px;"></a>
+  
+        </div>
+    </div>
+  </footer>
 </html>
