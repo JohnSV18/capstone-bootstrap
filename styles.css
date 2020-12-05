@@ -41,7 +41,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top:400px;
+  /* padding-top:400px; */
  
 
 }
@@ -114,7 +114,7 @@ body{
 }
 .flushing h2{
   color: white;
-  font-family: cursive;
+  font-family:sans-serif
 }
 .social{
   margin-top: 100px;
@@ -124,7 +124,7 @@ body{
   
 }
 .carousel-item{
-  background-image: url("images/sunset.jpg");
+  background-color: white;
 
 }
 /* Teams section styling on main page */
@@ -135,4 +135,13 @@ body{
 }
 .teams{
   color: white;
+}
+.teams-two{
+  color: white;
+  padding-top: 50px;
+}
+.btn-second{
+  background-color: black;
+  color:orange;
+  border:1px solid white;
 }
